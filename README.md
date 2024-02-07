@@ -1,17 +1,24 @@
-# React + Vite
+React + Vite Dapp Integration with Metamask
+Introduction
+This project aims to integrate React with the Injected provider method for wallets. The objective is to connect a decentralized application (Dapp) with Metamask, allowing users to interact with the Dapp through their Ethereum wallets on both desktop and mobile browsers.
 
-# Intorduction 
-In this project I am trying to connect React with Injected provide the method for wallet's
-In this project I want to connect my Dapp with metamask from mobile in chrome browser that why I build this project
+Features
+Wallet Integration
+Coinbase Wallet: Allows users to connect their Coinbase Wallet to the Dapp.
+Wallet Connect: Enables wallet connection via Wallet Connect, providing compatibility with various mobile wallets.
+Metamask: Connects the Dapp with Metamask, allowing seamless interaction with Ethereum wallets.
+Disconnect: Provides an option to disconnect the wallet from the Dapp when no longer needed.
 
-# What I was do:
-Library: @web3-react/core
+Technologies Used
+React: Frontend library for building user interfaces.
+Vite: Next-generation frontend build tool.
+@web3-react/core: Library for integrating web3 wallets into React applications.
 
-Buttons/Functions
-Coinbase Wallet
-Wallet Connect
-Metamask
-Disconnect
+Roadmap
+Improved UI/UX: Enhance the user interface and experience to make it more intuitive and user-friendly.
+Additional Wallet Support: Add support for more wallet providers to increase accessibility for users.
+Security Enhancements: Implement additional security measures to protect user funds and sensitive data.
 
-# What I will do:
-......
+
+Contributing
+Contributions are welcome! Please feel free to submit issues or pull requests for any bugs or feature requests.
